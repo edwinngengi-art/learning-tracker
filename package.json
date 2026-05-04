@@ -2,10 +2,13 @@
   "name": "learning-tracker",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://edwinngengi-art.github.io/learning-tracker",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -26,6 +29,7 @@
     "globals": "^17.5.0",
     "postcss": "^8.5.13",
     "tailwindcss": "^3.4.19",
-    "vite": "^8.0.10"
+    "vite": "^8.0.10",
+    "gh-pages": "^6.1.1"
   }
 }

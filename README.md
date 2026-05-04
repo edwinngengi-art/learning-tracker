@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📘 Learning Tracker App
 
 A modern **React Single Page Application (SPA)** that helps users track what they are learning in an organized and interactive way.
@@ -201,3 +202,6 @@ This project is open-source and available under the **MIT License**.
 * Vite documentation
 
 ---
+=======
+  
+>>>>>>> b08d7f6 (Fix routing for GitHub Pages)
