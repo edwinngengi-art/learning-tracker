@@ -1,60 +1,31 @@
-<<<<<<< HEAD
 # 📘 Learning Tracker App
 
-A modern **React Single Page Application (SPA)** that helps users track what they are learning in an organized and interactive way.
-This app allows users to add, search, and view learning items, making it a simple but effective productivity tool.
+A modern **React Single Page Application (SPA)** that helps users track and manage what they are learning. This app allows users to add new learning items, search through them, and view detailed information in a clean and interactive interface.
 
 ---
 
-## 🚀 Overview
+## 🌐 Live Demo
 
-The **Learning Tracker App** is designed to demonstrate core frontend development skills using React, including:
-
-* Component-based architecture
-* State management with React Hooks
-* Client-side routing
-* Responsive UI design
-
-It provides a clean interface where users can manage their learning goals efficiently.
+👉 https://edwinngengi-art.github.io/learning-tracker/
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-### 📝 Add Learning Items
-
-* Users can input a **title** and **description**
-* Items are instantly added to the list
-
-### 🔍 Search Functionality
-
-* Real-time filtering of items
-* Case-insensitive search by title
-
-### 📄 Detailed View
-
-* Click on any item to view full details
-* Uses dynamic routing (`/item/:id`)
-
-### ⚡ Single Page Application
-
-* Smooth navigation without page reloads
-* Powered by React Router
-
-### 🎨 Styled UI
-
-* Clean and responsive design using Tailwind CSS
+* ➕ Add new learning items (title + description)
+* 🔍 Search and filter items in real-time
+* 📄 View detailed information for each item
+* ⚡ Fast navigation using React Router (SPA)
+* 🎨 Responsive design with Tailwind CSS
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology   | Purpose                     |
-| ------------ | --------------------------- |
-| React        | Frontend framework          |
-| Vite         | Fast development build tool |
-| Tailwind CSS | Styling and layout          |
-| React Router | Navigation and routing      |
+* **Frontend:** React (Vite)
+* **Routing:** React Router (HashRouter for deployment)
+* **Styling:** Tailwind CSS
+* **Deployment:** GitHub Pages
 
 ---
 
@@ -90,7 +61,7 @@ learning-tracker/
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/YOUR-USERNAME/learning-tracker.git
+git clone https://github.com/edwinngengi-art/learning-tracker.git
 cd learning-tracker
 ```
 
@@ -100,85 +71,37 @@ cd learning-tracker
 npm install
 ```
 
-### 3. Run the App
+### 3. Run Locally
 
 ```
 npm run dev
 ```
 
-### 4. Open in Browser
+### 4. Build for Production
 
 ```
-http://localhost:5173
+npm run build
 ```
 
 ---
 
-## 🧠 How the App Works
+## 🧠 How It Works
 
-### State Management
-
-The app uses React’s `useState` hook to manage:
-
-* Learning items
-* Search input
-* Form inputs
-
-### Adding Data
-
-When a user adds a new item:
-
-* A unique ID is generated
-* The item is stored in state
-* The UI updates automatically
-
-### Filtering Data
-
-The search input dynamically filters items:
-
-```
-item.title.toLowerCase().includes(search.toLowerCase())
-```
-
-### Routing
-
-Navigation is handled using React Router:
-
-* `/` → Home page
-* `/item/:id` → Detail page
-
----
-
-## 📸 Screens (Suggested)
-
-You can add screenshots here:
-
-* Home page with form
-* Search functionality
-* Detail page view
+* Users can add learning items using a form
+* Items are stored in React state
+* Search dynamically filters items
+* Clicking an item navigates to a detail page using routing
+* The app is deployed as a static site using GitHub Pages
 
 ---
 
 ## 🔮 Future Improvements
 
-* 💾 Persist data with local storage or database
-* ✏️ Edit and delete functionality
-* 🏷️ Categories and tags
-* 🔐 User authentication
-* 🌙 Dark mode support
-* 📱 Enhanced mobile responsiveness
-
----
-
-## 🧪 Learning Objectives
-
-This project demonstrates:
-
-* Building a full SPA using React
-* Managing state effectively
-* Structuring scalable frontend apps
-* Implementing routing and navigation
-* Styling with a utility-first CSS framework
+* 💾 Persist data using local storage or a backend
+* ✏️ Edit and delete items
+* 🏷️ Add categories or tags
+* 🌙 Dark mode
+* 📱 Improved mobile responsiveness
 
 ---
 
@@ -191,17 +114,4 @@ GitHub: https://github.com/edwinngengi-art
 
 ## 📄 License
 
-This project is open-source and available under the **MIT License**.
-
----
-
-## 🙌 Acknowledgements
-
-* React documentation
-* Tailwind CSS docs
-* Vite documentation
-
----
-=======
-  
->>>>>>> b08d7f6 (Fix routing for GitHub Pages)
+This project is open-source and available under the MIT License.
